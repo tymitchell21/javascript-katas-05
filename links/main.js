@@ -126,6 +126,6 @@ function evaluateExpression (str, obj) {
     })
     return sum
 }
-
+   
 console.assert(evaluateExpression("a + b + c - d", {a: 1, b: 7, c: 3, d: 14}) === -3)
 console.assert(evaluateExpression("d - b - c - a", {a: 5, b: 2, c: 4, d: 25}) === 14)
